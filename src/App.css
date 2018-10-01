@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.application {
+  background: #fe8ac0;
+}
+
+.wrapper {
+  min-width: 800px;
+  max-width: 80%;
+  position: relative;
+  margin: 0px auto;
+  background: #212124;
+}
+
+.box {
+  position: absolute;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.interaction-bar {
+  display: flex;
+  height: 20%;
+}
+
+.link {
+  height: 70%;
+}
+
+.interaction-bar .text {
+  margin: 20px;
+  text-align: left;
+}
+
+.interaction-bar .text .title {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  min-height: 17px;
+}
+
+.interaction-bar .text .attribution {
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  margin: 2px 0 0;
+  text-shadow: 0 0 2px #000;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+}
+
+.interaction-bar .view {
+  width: 20%;
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
